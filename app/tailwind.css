@@ -10,3 +10,28 @@ body {
     color-scheme: dark;
   }
 }
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 8px;
+}
+
+.drawer {
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 16px;
+}
+
+.draggable {
+  background-color: #eaeaea;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: grab;
+}
+
